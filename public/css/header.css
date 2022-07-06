@@ -1,0 +1,40 @@
+header{
+    padding: 20px 0 0 0;
+    margin-bottom: 20px;
+    background-color: var(--Alfonzo);
+}
+header .top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+header .logo{
+    width: 50%;
+}
+header img{
+    padding: 10px;
+    width: 75%;
+}
+header .burger{
+    font-size: 30px;
+    padding: 20px 30px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: inline-block;
+}
+header nav{
+    margin-top: 20px;
+    text-align: center;
+}
+header nav ul{
+    padding-bottom: 20px;
+}
+header nav ul li{
+    margin: 20px 0;
+}
+header nav a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}

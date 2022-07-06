@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #585858;
+}
+.home{
+    font-family: var(--Fuente);
+    background-image: url('../images/bg-2.png');
+}
