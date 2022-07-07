@@ -38,3 +38,23 @@ header nav a{
     text-transform: uppercase;
     font-size: 18px;
 }
+/* Desktop */
+@media (min-width:769px) {
+    header nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    header .burger{
+        display: none;
+    }
+    header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+        justify-content: flex-end;
+    }
+    header nav ul li{
+        padding: 0 10px;
+    }
+}

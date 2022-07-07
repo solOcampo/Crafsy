@@ -12,7 +12,11 @@ a{
     text-decoration: none;
     color: #585858;
 }
+
+
 .home{
+    max-width: 1440px;
+    margin: 0 auto; 
     font-family: var(--Fuente);
     background-image: url('../images/bg-2.png');
 }
