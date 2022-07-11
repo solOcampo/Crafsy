@@ -12,9 +12,7 @@ a{
     text-decoration: none;
     color: #585858;
 }
-
-
-.home{
+body{
     max-width: 1440px;
     margin: 0 auto; 
     font-family: var(--Fuente);
