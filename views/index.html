@@ -14,23 +14,26 @@
     <header>
         <div class="top">
             <div class="logo">
-                <img src="/images/logo.png" alt="">
-            </div>
-            <div class="burger">
-                <i class="fas fa-ellipsis-v"></i>
+                <a href="/">
+                    <img src="/images/logo.png" alt="">
+                </a>
             </div>
         </div>
-        <nav>
-            <ul class="">
-                <li><a href="">Smartphones</a></li>
-                <li><a href="">Tablets</a></li>
-                <li><a href="">Computadoras</a></li>
-            </ul>
-            <ul class="">
-                <li><a href="/login">Login</a></li>
-                <li><a href="/register">Registro</a></li>
-            </ul>
-        </nav>
+        <div class="burger">
+            <input type="checkbox" name="burger" id="burger">
+            <label for="burger"><i class="fas fa-ellipsis-v"></i></label>
+            <nav>
+                <ul class="menu">
+                    <li><a href="">Smartphones</a></li>
+                    <li><a href="">Tablets</a></li>
+                    <li><a href="">Computadoras</a></li>
+                </ul>
+                <ul class="user">
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/register">Registro</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section class="products_cards">

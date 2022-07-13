@@ -1,19 +1,22 @@
 header{
-    padding: 20px 0 0 0;
+    padding: 20px 0;
     margin-bottom: 20px;
     background-color: var(--Alfonzo);
 }
 header .top{
+    max-height:80px ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 header .logo{
+    display: flex;
+    align-items: center;
     width: 50%;
 }
 header img{
     padding: 10px;
-    width: 75%;
+    width: 150px;
 }
 header .burger{
     font-size: 30px;
@@ -24,6 +27,7 @@ header .burger{
     display: inline-block;
 }
 header nav{
+    display: none;
     margin-top: 20px;
     text-align: center;
 }
@@ -52,7 +56,7 @@ header nav a{
         width: 10%;
     }
     header nav{
-        width: 90%;
+        width: 80%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -63,10 +67,29 @@ header nav a{
     header nav ul{
         display: flex;
         flex-wrap: wrap;
-        width: 40%;
+        width: 49%;
+    }
+    header nav ul.menu{
+        width: 65%;
+        justify-content: flex-start;
+    }
+    header nav ul.user{
+        width: 30%;
         justify-content: flex-end;
     }
     header nav ul li{
+        padding: 0 5px;
+    }
+    header nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1024px) {
+    header nav ul li{
         padding: 0 10px;
+    }
+    header nav ul li a{
+        font-size: 20px;
     }
 }
