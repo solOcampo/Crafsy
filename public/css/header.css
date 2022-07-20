@@ -66,9 +66,6 @@ header .burger nav a{
     header .top{
         width: 10%;
     }
-    header .burger input:checked ~ nav{
-        display: flex;
-    }
     header .burger label{
         display: none;
     }
@@ -76,6 +73,7 @@ header .burger nav a{
         width: 80%;
     }
     header .burger nav{
+        display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
