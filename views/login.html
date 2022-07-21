@@ -20,15 +20,16 @@
                 </div>
             </div>
             <div class="burger">
-                <input type="checkbox" name="burger" id="burger">
+                <input type="checkbox" name="burger" id="burger" checked>
                 <label for="burger"><i class="fas fa-ellipsis-v"></i></label>
                 <nav>
                     <ul class="menu">
                         <li><a href="">Smartphones</a></li>
                         <li><a href="">Tablets</a></li>
-                        <li><a href="">Computadoras</a></li>
+                        <li><a href="">Notebooks</a></li>
                     </ul>
                     <ul class="user">
+                        <li><a href="/cart"><i class="fas fa-shopping-cart"></i></a></li>
                         <li><a href="/login">Login</a></li>
                         <li><a href="/register">Registro</a></li>
                     </ul>
@@ -36,24 +37,21 @@
             </div>
         </header>
         <main>
-            <h1>Bienvenido</h1>
+            <h1>Bienvenid@s</h1>
             <form action="" method="post">
                 <div class="container bottom">
                     <label for="name">Email</label>
                     <input type="text" name="name" id="name" placeholder="Ingresa tu email" required>
-                    <small>Obligatorio</small>
+                    <small>Debe ingresar su email</small>
                 </div>
                 <div class="container bottom">
                     <label for="name">Contraseña</label>
                     <input type="password" name="name" id="name" placeholder="Ingresa tu contraseña" required>
-                    <small>Obligatorio</small>
+                    <small>Debe ingresar su contraseña</small>
                 </div>
                 <div class="recordarme bottom">
                     <input type="checkbox" name="recordarme" id="recordarme">
                     <label for="recordarme">Recordarme</label>
-                </div>
-                <div class="error bottom">
-                    <small>La combinacion de email y contraseña ingresada no es valida</small>
                 </div>
                 <button>Ingresar</button>
             </form>

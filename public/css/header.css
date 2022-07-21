@@ -89,7 +89,7 @@ header .burger nav a{
         justify-content: flex-start;
     }
     header .burger nav ul.user{
-        width: 30%;
+        width: 32%;
         justify-content: flex-end;
     }
     header .burger nav ul li{
