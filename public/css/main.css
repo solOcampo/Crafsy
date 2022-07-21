@@ -22,7 +22,7 @@
 .home main .products_cards article h3{
     margin: 20px 0;
 }
-.home main .products_cards article a{
+.home main .products_cards article a.botonRedireccion{
     background-color: var(--Alfonzo);
     color: white;
     text-transform: uppercase;
@@ -113,7 +113,7 @@
         width: 24%;
         margin-top: 0;
     }
-    .home aside section h2::after{
+    .home aside section h2:first-child{
         margin-top: 0;
     }
     .home main aside section .grid{
